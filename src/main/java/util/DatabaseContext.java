@@ -7,7 +7,7 @@ public class DatabaseContext {
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/payxpert";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "ayush7983";
+    private static final String PASSWORD = "/*user password*/";
     private static final Logger logger = Logger.getLogger(DatabaseContext.class.getName());
 
     static {
